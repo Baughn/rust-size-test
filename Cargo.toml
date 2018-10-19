@@ -5,5 +5,8 @@ version = "0.1.0"
 [profile.release]
 lto = true
 panic = 'abort'
+codegen-units = 1
+incremental = false
+opt-level = "z"
 
 [dependencies]
